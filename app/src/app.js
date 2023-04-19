@@ -39,7 +39,7 @@ app.use('/chat', routesChat)
 app.use('/orders', routesOrder)
 
 
-mongoose.connect(process.env.MONGODB)
+mongoose.connect(process.env.MONGODB,{ useNewUrlParser: true })
 
 app.all('*', (req, res) => {
     res.status(404).json({
