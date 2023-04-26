@@ -50,3 +50,11 @@
 [31m[2023-04-26T16:20:16.867Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
 [31m[2023-04-26T16:24:23.946Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
 [31m[2023-04-26T16:24:28.908Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-04-26T17:00:55.525Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-04-26T17:01:54.948Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:01:55.653Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:02:18.409Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:04:09.018Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:05:05.941Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:06:06.576Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-04-26T17:06:09.658Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
