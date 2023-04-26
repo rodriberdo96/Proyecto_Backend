@@ -2,6 +2,8 @@ const express = require('express')
 const session = require('express-session')
 require('dotenv').config()
 const mongoose = require('mongoose')
+const bodyparser = require("body-parser");
+
 
 const app = express()
 
@@ -37,7 +39,8 @@ app.use('/products', routesProducts)
 app.use('/cart', routesCart)
 app.use('/chat', routesChat)
 app.use('/orders', routesOrder)
-
+app.use(bodyparser.urlencoded({ extended: false }));
+app.use(bodyparser.json())
 
 mongoose.connect(process.env.MONGODB,{ useNewUrlParser: true })
 
